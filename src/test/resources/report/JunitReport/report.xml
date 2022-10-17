@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="57.364">
+<testcase classname="Title of the project SkyTransAirlineProject" name="open a skyairline webpage" time="57.364">
+<system-out><![CDATA[Given click mutitrip page...................................................passed
+And usershould in select a arrival place....................................passed
+When usershould in select depature place....................................passed
+And usershould in select a date.............................................passed
+Then I validate the outcomes................................................passed
+And check more outcomes.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
