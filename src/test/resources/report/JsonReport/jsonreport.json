@@ -1,0 +1,100 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "open a skyairline webpage",
+        "description": "",
+        "id": "title-of-the-project-skytransairlineproject;open-a-skyairline-webpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16137515100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click mutitrip page",
+            "match": {
+              "location": "multitripsteps.click_mutitrip_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5522163300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "usershould in select a arrival place",
+            "match": {
+              "location": "multitripsteps.usershould_in_select_a_arrival_place()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6123269400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "usershould in select depature place",
+            "match": {
+              "location": "multitripsteps.usershould_in_select_depature_place()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29566333600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "usershould in select a date",
+            "match": {
+              "location": "multitripsteps.usershould_in_select_a_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate the outcomes",
+            "match": {
+              "location": "multitripsteps.i_validate_the_outcomes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "check more outcomes",
+            "match": {
+              "location": "multitripsteps.check_more_outcomes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Title of the project SkyTransAirlineProject",
+    "description": "",
+    "id": "title-of-the-project-skytransairlineproject",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Multitrip.feature",
+    "tags": []
+  }
+]
