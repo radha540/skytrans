@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16137515100,
+              "duration": 24809153600,
               "status": "passed"
             },
             "line": 8,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 5522163300,
+              "duration": 7836535300,
               "status": "passed"
             },
             "line": 9,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 6123269400,
+              "duration": 6004786000,
               "status": "passed"
             },
             "line": 10,
@@ -48,8 +48,9 @@
           },
           {
             "result": {
-              "duration": 29566333600,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.multitripsteps.usershould_in_select_a_date(multitripsteps.java:222)\r\n\tat ✽.usershould in select a date(src/test/resources/Features/Multitrip.feature:11)\r\n",
+              "duration": 3022982000,
+              "status": "failed"
             },
             "line": 11,
             "name": "usershould in select a date",
@@ -60,8 +61,8 @@
           },
           {
             "result": {
-              "duration": 84100,
-              "status": "passed"
+              "duration": 49100,
+              "status": "skipped"
             },
             "line": 12,
             "name": "I validate the outcomes",
@@ -72,8 +73,8 @@
           },
           {
             "result": {
-              "duration": 44800,
-              "status": "passed"
+              "duration": 28600,
+              "status": "skipped"
             },
             "line": 13,
             "name": "check more outcomes",

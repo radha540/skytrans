@@ -67,7 +67,7 @@ public class Pompage2 extends Baseclass{
 	{
 	 return place8;
      }
-	public WebElement getplace9() throws InterruptedException 
+	public WebElement getplace9() 
 	{
  
 	 return place9;

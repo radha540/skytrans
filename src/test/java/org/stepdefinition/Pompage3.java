@@ -1,5 +1,6 @@
 package org.stepdefinition;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -64,10 +65,12 @@ public class Pompage3 extends Baseclass{
 	 
 	public WebElement getdates1() 
 	{
+		
 	 return dates1;
      } 
 	public WebElement getdate1() 
 	{
+	
 	 return date1;
 	}
 	 public WebElement getdates2() 

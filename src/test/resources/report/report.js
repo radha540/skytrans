@@ -52,7 +52,8 @@ formatter.match({
   "location": "multitripsteps.usershould_in_select_a_date()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdefinition.multitripsteps.usershould_in_select_a_date(multitripsteps.java:222)\r\n\tat ✽.usershould in select a date(src/test/resources/Features/Multitrip.feature:11)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "I validate the outcomes",
@@ -62,7 +63,7 @@ formatter.match({
   "location": "multitripsteps.i_validate_the_outcomes()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "check more outcomes",
@@ -72,6 +73,6 @@ formatter.match({
   "location": "multitripsteps.check_more_outcomes()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 });
